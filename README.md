@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Knowledge Based Platform <br>
 
-## Getting Started
+An intelligent note-taking and learning assistant that transforms static information into dynamic study materials. This platform allows users to create, organize, and leverage AI to maximize their learning efficiency.
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Overview
+The **AI Knowledge Based Platform** is designed for users who need more than just a place to store text. By integrating LLMs, the platform helps users digest information through automated summarization and reinforces learning via AI-generated self-assessment quizzes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Key Features
+* **Smart Note Management:** Create, edit, and save structured notes with a clean, modern interface.
+* **AI Summarization:** Instantly condense long-form notes into key takeaways and bullet points.
+* **AI Self-Testing:** Generate customized questions based on your specific notes to practice active recall.
+* **Secure Authentication:** Personal accounts to keep your knowledge base private and accessible.
+* **Persistent Storage:** All notes and summaries are stored securely in a cloud database.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br>
 
-## Learn More
+## 🛠️ Tech Stack
+* **Frontend:** Next.js, React.js, Tailwind CSS
+* **Backend:** Node.js, Next.js API Routes
+* **Database:** MongoDB Atlas
+* **Authentication:** NextAuth.js
+* **AI Engine:** Gemini API
+* **Styling & Motion:** GSAP / React Three Fiber
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
+* Node.js (v18 or higher)
+* MongoDB Atlas account
+* AI API Key
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/SadiaBhaks/AI-knowledge-based-platform.git](https://github.com/SadiaBhaks/AI-knowledge-based-platform.git)
+   cd AI-knowledge-based-platform
